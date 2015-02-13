@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC9F2FC91A8A4884003C72C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F2FC81A8A4884003C72C7 /* main.m */; };
+		AC9F2FCC1A8A4884003C72C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F2FCB1A8A4884003C72C7 /* AppDelegate.m */; };
+		AC9F2FCF1A8A4884003C72C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F2FCE1A8A4884003C72C7 /* ViewController.m */; };
+		AC9F2FD21A8A4884003C72C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9F2FD01A8A4884003C72C7 /* Main.storyboard */; };
+		AC9F2FD41A8A4884003C72C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9F2FD31A8A4884003C72C7 /* Images.xcassets */; };
+		AC9F2FD71A8A4884003C72C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9F2FD51A8A4884003C72C7 /* LaunchScreen.xib */; };
+		AC9F2FE31A8A4884003C72C7 /* SagoApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F2FE21A8A4884003C72C7 /* SagoApp2Tests.m */; };
+		AC9F2FEE1A8A48B8003C72C7 /* SagaKlass.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9F2FED1A8A48B8003C72C7 /* SagaKlass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC9F2FDD1A8A4884003C72C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9F2FBB1A8A4884003C72C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9F2FC21A8A4884003C72C7;
+			remoteInfo = SagoApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC9F2FC31A8A4884003C72C7 /* SagoApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SagoApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9F2FC71A8A4884003C72C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9F2FC81A8A4884003C72C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC9F2FCA1A8A4884003C72C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC9F2FCB1A8A4884003C72C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC9F2FCD1A8A4884003C72C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC9F2FCE1A8A4884003C72C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC9F2FD11A8A4884003C72C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC9F2FD31A8A4884003C72C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC9F2FD61A8A4884003C72C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AC9F2FDC1A8A4884003C72C7 /* SagoApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SagoApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9F2FE11A8A4884003C72C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9F2FE21A8A4884003C72C7 /* SagoApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SagoApp2Tests.m; sourceTree = "<group>"; };
+		AC9F2FEC1A8A48B8003C72C7 /* SagaKlass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SagaKlass.h; sourceTree = "<group>"; };
+		AC9F2FED1A8A48B8003C72C7 /* SagaKlass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SagaKlass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9F2FC01A8A4884003C72C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9F2FD91A8A4884003C72C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9F2FBA1A8A4884003C72C7 = {
+			isa = PBXGroup;
+			children = (
+				AC9F2FC51A8A4884003C72C7 /* SagoApp2 */,
+				AC9F2FDF1A8A4884003C72C7 /* SagoApp2Tests */,
+				AC9F2FC41A8A4884003C72C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9F2FC41A8A4884003C72C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9F2FC31A8A4884003C72C7 /* SagoApp2.app */,
+				AC9F2FDC1A8A4884003C72C7 /* SagoApp2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9F2FC51A8A4884003C72C7 /* SagoApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC9F2FCA1A8A4884003C72C7 /* AppDelegate.h */,
+				AC9F2FCB1A8A4884003C72C7 /* AppDelegate.m */,
+				AC9F2FCD1A8A4884003C72C7 /* ViewController.h */,
+				AC9F2FCE1A8A4884003C72C7 /* ViewController.m */,
+				AC9F2FD01A8A4884003C72C7 /* Main.storyboard */,
+				AC9F2FD31A8A4884003C72C7 /* Images.xcassets */,
+				AC9F2FD51A8A4884003C72C7 /* LaunchScreen.xib */,
+				AC9F2FC61A8A4884003C72C7 /* Supporting Files */,
+				AC9F2FEC1A8A48B8003C72C7 /* SagaKlass.h */,
+				AC9F2FED1A8A48B8003C72C7 /* SagaKlass.m */,
+			);
+			path = SagoApp2;
+			sourceTree = "<group>";
+		};
+		AC9F2FC61A8A4884003C72C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC9F2FC71A8A4884003C72C7 /* Info.plist */,
+				AC9F2FC81A8A4884003C72C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC9F2FDF1A8A4884003C72C7 /* SagoApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9F2FE21A8A4884003C72C7 /* SagoApp2Tests.m */,
+				AC9F2FE01A8A4884003C72C7 /* Supporting Files */,
+			);
+			path = SagoApp2Tests;
+			sourceTree = "<group>";
+		};
+		AC9F2FE01A8A4884003C72C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC9F2FE11A8A4884003C72C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9F2FC21A8A4884003C72C7 /* SagoApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9F2FE61A8A4884003C72C7 /* Build configuration list for PBXNativeTarget "SagoApp2" */;
+			buildPhases = (
+				AC9F2FBF1A8A4884003C72C7 /* Sources */,
+				AC9F2FC01A8A4884003C72C7 /* Frameworks */,
+				AC9F2FC11A8A4884003C72C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SagoApp2;
+			productName = SagoApp2;
+			productReference = AC9F2FC31A8A4884003C72C7 /* SagoApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC9F2FDB1A8A4884003C72C7 /* SagoApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9F2FE91A8A4884003C72C7 /* Build configuration list for PBXNativeTarget "SagoApp2Tests" */;
+			buildPhases = (
+				AC9F2FD81A8A4884003C72C7 /* Sources */,
+				AC9F2FD91A8A4884003C72C7 /* Frameworks */,
+				AC9F2FDA1A8A4884003C72C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9F2FDE1A8A4884003C72C7 /* PBXTargetDependency */,
+			);
+			name = SagoApp2Tests;
+			productName = SagoApp2Tests;
+			productReference = AC9F2FDC1A8A4884003C72C7 /* SagoApp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9F2FBB1A8A4884003C72C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ITHS2012;
+				TargetAttributes = {
+					AC9F2FC21A8A4884003C72C7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AC9F2FDB1A8A4884003C72C7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AC9F2FC21A8A4884003C72C7;
+					};
+				};
+			};
+			buildConfigurationList = AC9F2FBE1A8A4884003C72C7 /* Build configuration list for PBXProject "SagoApp2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9F2FBA1A8A4884003C72C7;
+			productRefGroup = AC9F2FC41A8A4884003C72C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9F2FC21A8A4884003C72C7 /* SagoApp2 */,
+				AC9F2FDB1A8A4884003C72C7 /* SagoApp2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9F2FC11A8A4884003C72C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9F2FD21A8A4884003C72C7 /* Main.storyboard in Resources */,
+				AC9F2FD71A8A4884003C72C7 /* LaunchScreen.xib in Resources */,
+				AC9F2FD41A8A4884003C72C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9F2FDA1A8A4884003C72C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9F2FBF1A8A4884003C72C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9F2FEE1A8A48B8003C72C7 /* SagaKlass.m in Sources */,
+				AC9F2FCF1A8A4884003C72C7 /* ViewController.m in Sources */,
+				AC9F2FCC1A8A4884003C72C7 /* AppDelegate.m in Sources */,
+				AC9F2FC91A8A4884003C72C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9F2FD81A8A4884003C72C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9F2FE31A8A4884003C72C7 /* SagoApp2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9F2FDE1A8A4884003C72C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9F2FC21A8A4884003C72C7 /* SagoApp2 */;
+			targetProxy = AC9F2FDD1A8A4884003C72C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC9F2FD01A8A4884003C72C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9F2FD11A8A4884003C72C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9F2FD51A8A4884003C72C7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9F2FD61A8A4884003C72C7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9F2FE41A8A4884003C72C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC9F2FE51A8A4884003C72C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9F2FE71A8A4884003C72C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SagoApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC9F2FE81A8A4884003C72C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SagoApp2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC9F2FEA1A8A4884003C72C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SagoApp2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SagoApp2.app/SagoApp2";
+			};
+			name = Debug;
+		};
+		AC9F2FEB1A8A4884003C72C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SagoApp2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SagoApp2.app/SagoApp2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9F2FBE1A8A4884003C72C7 /* Build configuration list for PBXProject "SagoApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9F2FE41A8A4884003C72C7 /* Debug */,
+				AC9F2FE51A8A4884003C72C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9F2FE61A8A4884003C72C7 /* Build configuration list for PBXNativeTarget "SagoApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9F2FE71A8A4884003C72C7 /* Debug */,
+				AC9F2FE81A8A4884003C72C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC9F2FE91A8A4884003C72C7 /* Build configuration list for PBXNativeTarget "SagoApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9F2FEA1A8A4884003C72C7 /* Debug */,
+				AC9F2FEB1A8A4884003C72C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9F2FBB1A8A4884003C72C7 /* Project object */;
+}
